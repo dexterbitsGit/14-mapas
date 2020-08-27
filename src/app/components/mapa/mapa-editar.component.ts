@@ -20,7 +20,7 @@ export class MapaEditarComponent implements OnInit {
     public dialogRef: MatDialogRef<MapaEditarComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any
   ) {
-    console.log(data);
+
 
     this.forma = fb.group({
       titulo: data.titulo,
